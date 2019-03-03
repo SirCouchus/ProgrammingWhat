@@ -1,0 +1,174 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+#navbarToggle form input {
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+#navbarToggle form #searchIcon {
+  background-color: #fff;
+  color: #5f788a;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header #header-title {
+  font-family: 'Raleway';
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.profile-section li {
+  list-style-type: none; 
+}
+
+.profile-section input {
+  width: 100%;
+  margin: 5px;
+}
+
+.profile-section, .content-section {
+  background: #ffffff;
+  padding: 10px 10px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.center-body {
+  padding: 2px;
+  height: 162px;
+  background: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+}
+
+.center-body #post-body, #code-body {
+  border-radius: 3px;
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.center-body #submit {
+  border-radius: 3px;
+  background-color: #5f788a;
+  color: #fff;
+
+}
+
+.post-instance {
+  margin-top: 10px;
+  padding: 2px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+  font-size: 14px;
+}
+
+.post-instance .follow-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.post-instance .post-username {
+  color: rgb(65, 128, 226);
+  display: inline-block;
+  float: left;
+}
+
+.post-instance .post-stamp {
+  font-size: 12px;
+  display: inline-block;
+  float: right;
+  color: gray;
+}
+
+.post-instance .image-on-posts {
+  border-radius: 24px;
+  display: inline-block;
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.post-instance .code-body {
+  background-color: rgba(65, 128, 226,0.2);
+  font-family: 'Courier New';
+}
+
+.post-instance .post-body {
+  color: #333;
+}
+
+.post-instance .post-body, .code-body {
+  margin-left: 50px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
